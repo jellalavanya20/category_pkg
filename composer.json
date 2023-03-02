@@ -1,0 +1,30 @@
+{
+    "name": "indianic/category",
+    "description": "category",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Indianic\\Category\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jellalavanya",
+            "email": "lavanya.j@indianic.com"
+        }
+    ],
+    "require": {
+        "laravel/nova": "^4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Indianic\\Category\\CategoryServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
